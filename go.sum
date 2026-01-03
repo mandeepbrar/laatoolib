@@ -6,5 +6,5 @@ github.com/peterbourgon/diskv v2.0.1+incompatible h1:UBdAOUP5p4RWqPBg048CAvpKN+v
 github.com/peterbourgon/diskv v2.0.1+incompatible/go.mod h1:uqqh8zWWbv1HBMNONnaR/tNboyR3/BZd58JJSHlUSCU=
 github.com/pmylund/go-cache v2.1.0+incompatible h1:n+7K51jLz6a3sCvff3BppuCAkixuDHuJ/C57Vw/XjTE=
 github.com/pmylund/go-cache v2.1.0+incompatible/go.mod h1:hmz95dGvINpbRZGsqPcd7B5xXY5+EKb5PpGhQY3NTHk=
-laatoo.io/sdk v0.1.14 h1:VMoGVkoFRYdqJaQFafTBHIU7RHYxZuOf8REXkyfbbgI=
-laatoo.io/sdk v0.1.14/go.mod h1:b19Cdexo+hdh+LOTLsBVYmOey/Rc7EvPReRpSGsezr0=
+laatoo.io/sdk v0.1.56 h1:NhkQQmvZX4zRALO2k4QGTUxkCTGszXSY7v6YhgWYMFE=
+laatoo.io/sdk v0.1.56/go.mod h1:61hpIWrHaSUBuyOHaitCi8oE18/CZu4AgGkrIO5QP20=
