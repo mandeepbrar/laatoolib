@@ -14,14 +14,14 @@ func MergeMaps(obj1, obj2 utils.StringMap) (utils.StringMap, error) {
 	if obj2 == nil {
 		return obj1, nil
 	}
-	res := make(map[string]interface{}, len(obj1))
+	res := make(utils.StringMap, len(obj1))
 	for k, v := range obj1 {
 		res[k] = v
 	}
 	options := []func(*mergo.Config){mergo.WithOverride}
 
-	mergo.Merge(&res, obj2, options...)
-	return utils.StringMap(res), nil
+	err := mergo.Merge(&res, obj2, options...)
+	return utils.StringMap(res), err
 }
 
 func ConvertToStringsMap(val map[string]interface{}) utils.StringsMap {
